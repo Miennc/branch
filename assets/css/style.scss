@@ -1,0 +1,258 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-family: "Unica One", cursive;
+}
+.menu {
+    img {
+        object-fit: cover;
+    }
+    p {
+        font-family: "Marko One";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        color: #8cc5f9;
+    }
+    a {
+        text-decoration: none;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #08090a;
+    }
+    .text-color {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+        /* Primary */
+
+        color: #8cc5f9;
+    }
+    .img-icon {
+        width: 92px;
+        height: 27px;
+    }
+}
+.banner {
+    h1 {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 70px;
+        color: #8cc5f9;
+    }
+    p {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        /* or 136% */
+
+        color: #4f5665;
+    }
+    .thumb {
+        overflow: hidden;
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+}
+.meet {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #0b132a;
+}
+.list {
+    div {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #4f4f4f;
+    }
+    #text-color {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #8cc5f9;
+    }
+}
+.box-content {
+    .box-1 {
+        box-shadow: 0px 2px 6px rgba(47, 83, 151, 0.1);
+        border-radius: 3px;
+        border: 1px solid #8cc5f9;
+        text-align: center;
+        overflow: hidden;
+        height: 350px;
+        padding: 30px;
+        margin-top: 20px;
+        img {
+            border-radius: 50%;
+        }
+    }
+    .text-color {
+        font-family: "Rubik";
+        font-style: italic;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        /* identical to box height */
+
+        text-align: center;
+
+        /* Primary */
+
+        color: #8cc5f9;
+    }
+    p {
+        font-family: "Rubik";
+        font-style: italic;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+
+        /* Gray 4 */
+
+        color: #bdbdbd;
+    }
+}
+.text-lorem {
+    background: #fbfbfb;
+    z-index: -1;
+    h1 {
+        font-size: 90px;
+    }
+    div {
+        font-family: "Rubik";
+        font-style: italic;
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 39px;
+
+        /* Gray 2 */
+
+        color: #4f4f4f;
+    }
+}
+.our {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #4f4f4f;
+}
+.number {
+    h2 {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 65px;
+
+        /* Primary */
+
+        color: #8cc5f9;
+    }
+    p {
+        font-family: "Rubik";
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 39px;
+
+        /* Gray 2 */
+
+        color: #4f4f4f;
+    }
+}
+@media (max-width: 567px) {
+    .number {
+        h2 {
+            font-size: 25px;
+        }
+    }
+}
+.footer {
+    position: relative;
+background: #F8F8F8;
+padding:30px;
+padding-top:80px;
+    .text {
+        i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        span {
+            font-family: "Marko One";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 30px;
+            /* or 136% */
+
+            /* Primary */
+
+            color: #8cc5f9;
+        }
+        p {
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            /* or 167% */
+
+            margin-top: 10px;
+            /* Gray 4 */
+
+            color: #bdbdbd;
+        }
+    }
+    .text-2 {
+        h6 {
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            /* identical to box height, or 167% */
+
+            color: #0b132a;
+        }
+        p {
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            /* identical to box height, or 188% */
+
+            color: #4f5665;
+        }
+    } 
+}
